@@ -13,7 +13,7 @@ import java.sql.SQLException;
 public class Main2 {
     public static void main(String[] args) {
         OracleDataSource ods;
-        ConnectionFactory connectionFactory=new ConnectionFactory();
+        ConnectionFactory connectionFactory=null;
         try {
             ods = connectionFactory.getConnection();
 

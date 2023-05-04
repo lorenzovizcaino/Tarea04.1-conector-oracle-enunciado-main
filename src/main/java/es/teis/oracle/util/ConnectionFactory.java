@@ -18,7 +18,7 @@ public class ConnectionFactory {
     private static final String USER_KEY ="user";
     private static final String PWD_KEY ="pwd";
 
-    public ConnectionFactory() {
+    private  ConnectionFactory() {
 
     }
 
